@@ -4,6 +4,7 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    background-color: #959595;
 }
 
 /*
@@ -21,3 +22,159 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    background-color:#f5f5f5;
+}
+
+.zbozi {
+    display: block;
+    margin-left: 100px;
+    width: 670px;
+    height: 440px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.vizual  {
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+    width: 50%;
+    height: 440px;
+    background-image: linear-gradient(180deg, #06d7c1,#50cc49);
+    position: relative;
+}
+
+.detaily {
+    display: inline-block;
+    background-color: white;
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50%;
+    height: 440px;
+    margin: auto;
+}
+
+.bota {
+    position: absolute;
+    top: 150px;
+    right: 15px;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.slogan {
+    margin-left: 30px;
+    color: white;
+    size: 16px;
+    font-weight: 500;
+}
+
+.cenovka {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 220px;
+    marging-right: 30px;
+    color: white;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.nazev, .produkt, .popis, .parametr, .velikosti, .akce {
+    margin-left: 30px;
+ 
+}
+
+.nazev {
+   font-size: 20px;
+   font-weight: 500;
+   margin-top: 30px;
+   text-transform: uppercase;
+}
+
+.produkt{
+    font-size: 14px;
+    color: #959595;
+    font-weight: 400;
+    margin-top: -4px;
+ }
+
+.popis {
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 275px;
+    border-bottom: 2px solid #06d7c1;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+.parametr {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.velikosti {
+    list-style-type: none;
+    justify-content: space-between;
+    margin-left: 0;
+}
+
+
+li {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin:10px;
+    align-content: center;
+}
+
+
+.akce {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.tlacitko {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center; 
+    color: white;
+    background-color:#f15f42;
+    padding: 10px 24px;
+    text-align: center; 
+    border-radius: 6px;
+}
+
+.vybrana {
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 3px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
